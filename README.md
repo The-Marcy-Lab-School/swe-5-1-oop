@@ -6,7 +6,6 @@
   - [playground.js](#playgroundjs)
   - [npm test](#npm-test)
 - [Questions](#questions)
-  - [Question 1:](#question-1)
 
 ## Setup
 
@@ -28,7 +27,7 @@ You have to understand that "grades" don't exist at Marcy. We only need performa
 
 ### playground.js
 
-The most straightforward way to test your code is to test your code by hand as you work. Invoke your functions and use `console.log()` to print out the results. Then, `cd` into the `src/` directory and use the `node <file_name>` command to run your JavaScript files. 
+The most straightforward way to test your code is to test your code by hand as you work. Invoke your functions and use `console.log()` to print out the results. Then, `cd` into the `src/` directory and use the `node <file_name>` command to run your JavaScript files.
 
 You can also create what's called a "playground" (or "sandbox") file where you import any code you need, and then mess around with that file. We've included one in the `src` directory so you can see it. Run that program using `node src/playground.js`.
 
@@ -51,8 +50,8 @@ You will know that you have "completed" an assignment once you have passed 75% o
 
 This function should use a closure to return a function.
 
-* The returned should return a different integer each time starting at `1` and incrementing each time it is invoked. 
-* This kind of function is used to generate unique number IDs for things.
+- The returned should return a different integer each time starting at `1` and incrementing each time it is invoked.
+- This kind of function is used to generate unique number IDs for things.
 
 This is a *classic* closure example, check the tests for what we're expecting. And if you need a hint, check out this [article on closures from W3](https://www.w3schools.com/js/js_function_closures.asp).
 
@@ -71,6 +70,7 @@ Ok, this is a fun one. Write a "factory" function called `makeFriendList`.
 - The returned object should have methods that act on the `friends` array.
 
 The methods we need are:
+
 - `addFriend()`
   - add a new friend
 - `removeFriend()`
