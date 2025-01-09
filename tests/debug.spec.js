@@ -2,7 +2,7 @@ const path = require('path');
 const ScoreCounter = require('score-tests'); // eslint-disable-line import/no-extraneous-dependencies
 const {
   createCourse,
-} = require('./debug');
+} = require('../src/debug');
 
 const testSuiteName = 'Debug Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
